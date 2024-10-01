@@ -1,0 +1,139 @@
+body{
+    background-color: #FAEDCD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.sec1 h1{
+    font-family: 'Hubballi', cursive;
+    font-size: 56px;
+    width: 40%;
+    font-weight: 500;
+}
+
+.sec1{
+    background-color: #FAEDCD;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    margin-top: -6%;
+}
+
+h1{
+    font-family: 'Hubballi', cursive;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.sec2{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10% 0;
+}
+
+.sec3{
+    background-color: #FAEDCD;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10% 0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+p{
+    width: 500px;
+    font-family: 'Hubballi', cursive;
+        font-size: 20px;
+}
+
+.sec1 img{
+    width: 400px;
+    height: auto;
+}
+
+a{
+    width: 310px;
+    font-family: 'Hubballi', cursive;
+    font-size: 20px;
+
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    transition: .3s;
+
+    background: #FFBF9B;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+
+a:hover{
+    font-size: 24px;
+    transition: .3s;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.logo p{
+    color: black;
+    border-left: 4px solid #000;
+    padding-left: 12px;
+    font-family: 'Hubballi', cursive;
+    font-size: 16px;
+}
+
+
+.wrapper{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 750px;
+    padding: 3%;
+}
+
+.card h2{
+    width: 400px;
+    font-family: 'Hubballi', cursive;
+    font-size: 32px;
+}
+
+.card p{
+    width: 400px;
+    font-family: 'Hubballi', cursive;
+    font-size: 18px;
+}
+
+.card img{
+    width: 300px;
+}
+

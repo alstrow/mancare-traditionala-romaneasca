@@ -1,0 +1,45 @@
+body{
+    background-color: #FAEDCD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.sec{
+    background-color: #FAEDCD;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+h1{
+    font-family: 'Hubballi', cursive;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+img{
+    width: 500px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+p{
+    width: 500px;
+    font-family: 'Hubballi', cursive;
+        font-size: 20px;
+}
+
+

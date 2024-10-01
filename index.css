@@ -1,0 +1,23 @@
+:root{
+    --bg-info: #000;
+    --bg-meniu: #fff;
+    --bg-pp: #fff;
+
+
+    --bg-bb: #55dcb1;
+
+    --hover: #a1770b;
+
+    --c1: #FDB913;
+    --c2: #fff;
+    --c3: #DDF7E3;
+    --c4: #ffffff;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+}
